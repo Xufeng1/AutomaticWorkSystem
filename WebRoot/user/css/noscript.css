@@ -1,0 +1,17 @@
+/***** No Script Stylesheet *****/
+#mainmenu li:hover ul{
+display:block;		
+}
+
+ul.slides li:first-child{
+display:block;
+}
+
+#map{
+width:1038px;	
+height:382px;
+background-image:url(../images/sample-images/noscript-map.jpg);
+background-repeat:no-repeat;
+display:block;
+position:absolute;
+}

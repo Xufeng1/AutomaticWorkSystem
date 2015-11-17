@@ -1,0 +1,112 @@
+/***** Custom Color and Pattern Stylesheet *****/
+
+body {
+background:#FFF url(../images/skins/bg-body1.jpg); /* You can change this bg pattern with another pattern (bg-body1.jpg) until (bg-body10.jpg) */
+background-attachment:fixed;
+font:12px Tahoma, Arial, Verdana;
+color:#6d6d6d;
+margin:0;
+padding:0;
+}
+
+#header-wrapper {
+height:auto;
+min-height:671px;
+background-color:#323232; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow-black.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#header-wrapper-inner {
+height:auto;
+min-height:274px;
+background-color:#323232; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#mainmenu-wrapper{
+height:146px;
+background-image:url(../images/bg-mainmenu-black.png);
+background-repeat:no-repeat;
+background-position:center;
+}
+
+
+#mainmenu ul {
+text-shadow:0 2px 0 #2a2a2a;
+}
+
+#mainmenu ul li.selected {
+text-shadow:0 2px 0 #2a2a2a;
+background-color:#313131;
+border-left:1px solid #595959;
+border-bottom:1px solid #595959;
+}
+
+#mainmenu ul li:hover {
+text-shadow:0 2px 0 #2a2a2a;
+background-color:#313131;
+border-left:1px solid #595959;
+border-bottom:1px solid #595959;
+}
+
+#menu ul {
+background-color:#313131;
+border-left:1px solid #595959;
+border-bottom:1px solid #595959;
+}
+
+#mainmenu ul li li a {
+text-shadow:0 2px 0 #2a2a2a;
+}
+
+#menu li ul li:hover {
+background-color:#262626;
+}
+
+.slide-text-left h1, .slide-text-right h1 {
+text-shadow:0 2px 0 #2f2f2f;
+}
+
+.slide-text-center h1 {
+text-shadow:0 2px 0 #2f2f2f;
+}
+
+.slide-text-left p, .slide-text-right p {
+text-shadow:0 2px 0 #2f2f2f;
+}
+
+.slide-caption {
+background-color:#b0b0b0;
+background-image:url(../images/header-glow2-black.png);
+background-repeat:no-repeat;
+}
+
+.caption-center {
+color:#fff;
+text-shadow:0 2px 0 #8f8f8f;
+} 
+
+.caption-right h4, .caption-left h4 {
+color:#fff;
+text-shadow:0 2px 0 #8f8f8f;
+}
+
+.caption-right p, .caption-left p {
+color:#fff;
+text-shadow:0 2px 0 #8f8f8f;
+}
+

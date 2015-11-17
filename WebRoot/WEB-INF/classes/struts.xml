@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+  	<package name="login" namespace="/login" extends="struts-default">
+		<default-action-ref name="error" />
+		<action name="error">
+			<result>/error.jsp</result>
+		</action>
+		<action name="login"
+			class="com.wcstar.automaticworksystem.action.LoginAction" method="login">
+			<result type="redirect" name="adminsuccess">/admin/index.jsp</result>
+			<result type="redirect" name="usersuccess">/user/index.jsp</result>
+			<result name="error">/false.jsp</result>
+		</action>
+		<action name="register"
+			class="com.wcstar.automaticworksystem.action.RegisterAction" method="register">
+			<result name="success">/success.jsp</result>
+			<result name="error">/false.jsp</result>
+		</action>
+
+	</package>
+
+	<package name="admin" namespace="/admin" extends="struts-default">	
+		<action name="*-delete-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="delete">
+			<result type="chain" name="success">Admin-{2}</result>
+		</action>
+		<action name="*-add-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="add">
+			<result type="chain" name="success">Admin-{2}</result>
+		</action>
+		<action name="*-update-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="update">
+			<result type="chain">Admin-{2}</result>
+		</action>
+		<action name="*-updatePassword-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="updatePassword">
+			<result type="chain">Admin-password</result>
+		</action>
+		<action name="*-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="{2}">
+			<result name="success">/admin/{1}-{2}.jsp</result>
+		</action>
+	</package>
+	
+	<package name="user" namespace="/user" extends="struts-default">
+		<action name="*-update" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="update">
+			<result type="chain">User-information</result>
+		</action>
+		<action name="*-updatePassword" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="updatePassword">
+			<result type="redirect">welcome.jsp</result>
+		</action>
+		<action name="*-add-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="add{2}">
+			<result type="redirect">welcome.jsp</result>
+		</action>
+		<action name="*-*" 
+			class="com.wcstar.automaticworksystem.action.{1}Action" method="{2}">
+			<result>/user/{1}-{2}.jsp</result>
+		</action>	
+	</package>
+	
+<!-- 	下划线"_"和default-action-ref混用会出莫名bug -->
+	
+ 	<package name="default" namespace="/" extends="struts-default"> 
+
+ 		<default-action-ref name="login" /> 
+ 		<action name="login"> 
+ 			<result>/login.jsp</result> 
+ 		</action> 
+ 	</package>
+
+<!-- 		<action name="*_*" class="com.bjsxt.bbs2009.action.{1}Action" method="{2}"> -->
+<!--        		<result>/admin/{1}_{2}.jsp</result> -->
+<!--        		<result name="input">/admin/{1}_input.jsp</result> -->
+       		
+<!--        		<result name="exception_handle">/admin/exception.jsp</result> -->
+<!--        </action> -->
+
+</struts>

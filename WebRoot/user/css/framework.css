@@ -1,0 +1,231 @@
+.row {
+width:1000px;
+overflow:hidden;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0 -19px;
+}
+
+.grid_1 {
+width:62px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_2 {
+width:128px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3 {
+width:212px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_4 {
+width:295px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 28px;
+}
+
+.grid_5 {
+width:382px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_6 {
+width:462px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_7 {
+width:542px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_8 {
+width:629px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_9 {
+width:712px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_10 {
+width:796px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_11 {
+width:862px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_12 {
+width:962px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.space_1 {
+margin-left:99px;
+}
+
+.space_2 {
+margin-left:179px;
+}
+
+.space_3 {
+margin-left:259px;
+}
+
+.space_4 {
+margin-left:339px;
+}
+
+.space_5 {
+margin-left:419px;
+}
+
+.space_6 {
+margin-left:499px;
+}
+
+.space_7 {
+margin-left:579px;
+}
+
+.space_8 {
+margin-left:659px;
+}
+
+.space_9 {
+margin-left:739px;
+}
+
+.space_10 {
+margin-left:819px;
+}
+
+.space_11 {
+margin-left:899px;
+}
+
+.grid_2_custom_footer {
+width:155px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3_custom_footer {
+width:269px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_6_custom_left {
+width:456px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 25px 0 19px;
+}
+
+.grid_6_custom_right {
+width:456px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px 0 25px;
+}
+
+.grid_founder_img {
+width:224px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_founder_text {
+width:360px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}
+
+.grid_3_alt {
+width:184px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 18px;
+}
+
+.post-info {
+width:190px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 38px 0 18px;
+}
+
+.post-content {
+width:381px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 18px 19px;
+}
+
+.grid_faq {
+width:275px;
+overflow:hidden;
+float:left;
+display:inline;
+margin:0 19px;
+}

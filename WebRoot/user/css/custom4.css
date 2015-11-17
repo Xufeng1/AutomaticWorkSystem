@@ -1,0 +1,104 @@
+/***** Custom Color and Pattern Stylesheet *****/
+
+body {
+background:#FFF url(../images/skins/bg-body1.jpg); /* You can change this bg pattern with another pattern (bg-body1.jpg) until (bg-body10.jpg) */
+background-attachment:fixed;
+font:12px Tahoma, Arial, Verdana;
+color:#6d6d6d;
+margin:0;
+padding:0;
+}
+
+#header-wrapper {
+height:auto;
+min-height:671px;
+background-color:#9b1818; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow-red.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#header-wrapper-inner {
+height:auto;
+min-height:274px;
+background-color:#9b1818; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#mainmenu-wrapper{
+height:146px;
+background-image:url(../images/bg-mainmenu-red.png);
+background-repeat:no-repeat;
+background-position:center;
+}
+
+
+#mainmenu ul {
+text-shadow:0 2px 0 #731313;
+}
+
+#mainmenu ul li.selected {
+text-shadow:0 2px 0 #731313;
+background-color:#861616;
+border-left:1px solid #c02e2e;
+border-bottom:1px solid #c02e2e;
+}
+
+#mainmenu ul li:hover {
+text-shadow:0 2px 0 #731313;
+background-color:#861616;
+border-left:1px solid #c02e2e;
+border-bottom:1px solid #c02e2e;
+}
+
+#menu ul {
+background-color:#861616;
+border-left:1px solid #c02e2e;
+border-bottom:1px solid #c02e2e;
+}
+
+#mainmenu ul li li a {
+text-shadow:0 2px 0 #731313;
+}
+
+#menu li ul li:hover {
+background-color:#7a0d0d;
+}
+
+.slide-text-left h1, .slide-text-right h1 {
+text-shadow:0 2px 0 #8c1a1a;
+}
+
+.slide-text-center h1 {
+text-shadow:0 2px 0 #8c1a1a;
+}
+
+.slide-text-left p, .slide-text-right p {
+text-shadow:0 2px 0 #8c1a1a;
+}
+
+.slide-caption {
+background-color:#3e3e3e;
+background-image:url(../images/header-glow2.png);
+background-repeat:no-repeat;
+}
+
+.caption-right h4, .caption-left h4 {
+color:#fff;
+}
+
+.caption-right p, .caption-left p {
+color:#979797;
+}

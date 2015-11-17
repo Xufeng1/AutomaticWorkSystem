@@ -1,0 +1,104 @@
+/***** Custom Color and Pattern Stylesheet *****/
+
+body {
+background:#FFF url(../images/skins/bg-body5.jpg); /* You can change this bg pattern with another pattern (bg-body1.jpg) until (bg-body10.jpg) */
+background-attachment:fixed;
+font:12px Tahoma, Arial, Verdana;
+color:#6d6d6d;
+margin:0;
+padding:0;
+}
+
+#header-wrapper {
+height:auto;
+min-height:671px;
+background-color:#007bb7; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#header-wrapper-inner {
+height:auto;
+min-height:274px;
+background-color:#007bb7; /* You can change this bg color with another heks color */
+background-image:url(../images/header-glow.png);
+background-repeat:no-repeat;
+background-position:center 19px;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+position:relative;
+z-index:100;
+}
+
+#mainmenu-wrapper{
+height:146px;
+background-image:url(../images/bg-mainmenu.png);
+background-repeat:no-repeat;
+background-position:center;
+}
+
+
+#mainmenu ul {
+text-shadow:0 2px 0 #016288;
+}
+
+#mainmenu ul li.selected {
+text-shadow:0 2px 0 #014c6f;
+background-color:#026796;
+border-left:1px solid #068ecc;
+border-bottom:1px solid #068ecc;
+}
+
+#mainmenu ul li:hover {
+text-shadow:0 2px 0 #014c6f;
+background-color:#026796;
+border-left:1px solid #068ecc;
+border-bottom:1px solid #068ecc;
+}
+
+#menu ul {
+background-color:#026796;
+border-left:1px solid #068ecc;
+border-bottom:1px solid #068ecc;
+}
+
+#mainmenu ul li li a {
+text-shadow:0 2px 0 #014c6f;
+}
+
+#menu li ul li:hover {
+background-color:#005982;
+}
+
+.slide-text-left h1, .slide-text-right h1 {
+text-shadow:0 2px 0 #146e9b;
+}
+
+.slide-text-center h1 {
+text-shadow:0 2px 0 #146e9b;
+}
+
+.slide-text-left p, .slide-text-right p {
+text-shadow:0 2px 0 #146e9b;
+}
+
+.slide-caption {
+background-color:#3e3e3e;
+background-image:url(../images/header-glow2.png);
+background-repeat:no-repeat;
+}
+
+.caption-right h4, .caption-left h4 {
+color:#fff;
+}
+
+.caption-right p, .caption-left p {
+color:#979797;
+}
